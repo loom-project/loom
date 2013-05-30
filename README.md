@@ -7,6 +7,6 @@ refer to the [Wiki][wiki].
 Requirements
 ------------
 
-Placeholder for requirements
+libtalloc-dev
 
 [wiki]: https://github.com/loom-project/loom/wiki
