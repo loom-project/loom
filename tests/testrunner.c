@@ -1,4 +1,23 @@
-/* testrunner.c */
+/*
+Unit testing code for loom. This is a generic novaprova testrunner.
+Copyright (C) 2013 Commonwealth of Australia
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Derived from NovaProva testrunner.c sample <http://www.novaprova.org>
+*/
+
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -10,8 +29,7 @@ int usage(char *prog) {
     return -1;
 }
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     int result, c;
 
     np_runner_t *runner = np_init();
