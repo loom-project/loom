@@ -109,8 +109,8 @@ extern const char generic_buffer_name[];
 generic_t *generic_buffer(void *ctx, uint8_t *value, uint32_t len);
 generic_t *generic_buffer_dup(void *ctx, uint8_t *value, uint32_t len);
 
-#ifdef __UNITTEST__
-int generic_unittest(void);
-#endif
+/* generic functions */
+#define generic_free(g) talloc_free(g)
+char *generic_tostring(void *ctx, generic_t *g);
 
 #endif

@@ -1,2 +1,32 @@
+# temporary files
 *~
-*.swp
+.*.swp
+
+# autotools
+/.deps
+/aclocal.m4
+/autom4te.cache
+/autoscan.log
+/compile
+/config.h
+/config.log
+/config.status
+/configure
+/configure.scan
+/depcomp
+/install-sh
+/Makefile
+/missing
+/stamp-h1
+/*.in
+
+# build files
+testrunner
+*.o
+*.a
+
+# test reports
+/reports
+
+# dists
+/loom*.tar.gz

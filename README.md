@@ -8,5 +8,14 @@ Requirements
 ------------
 
 libtalloc-dev
+novaprova
+
+Build instructions
+------------------
+
+    autoreconf -i
+    ./configure
+    make
+    make check
 
 [wiki]: https://github.com/loom-project/loom/wiki
