@@ -111,6 +111,7 @@ generic_t *generic_buffer_dup(void *ctx, uint8_t *value, uint32_t len);
 
 /* generic functions */
 #define generic_free(g) talloc_free(g)
+#define generic_name(g) talloc_get_name(g)
 char *generic_tostring(void *ctx, generic_t *g);
 
 #endif

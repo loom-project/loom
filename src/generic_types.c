@@ -1,4 +1,4 @@
-#include "generic.h"
+#include "generic_types.h"
 
 #include <talloc.h>
 #include <stdint.h>
